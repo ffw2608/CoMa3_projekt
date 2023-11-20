@@ -1,0 +1,10 @@
+# ninja log v5
+15	747	7221834882643639	musiktafel_temp_autogen/timestamp	bfe3a930196e8d93
+15	747	7221834882643639	musiktafel_temp_autogen/mocs_compilation.cpp	bfe3a930196e8d93
+15	747	7221834882643639	C:/Users/Lenovo/_UNI/Programmieren/git_repos/CoMa3_projekt/code/temp_projekt/build-musiktafel_temp-Desktop_x86_windows_msvc2022_pe_64bit-Debug/musiktafel_temp_autogen/timestamp	bfe3a930196e8d93
+15	747	7221834882643639	C:/Users/Lenovo/_UNI/Programmieren/git_repos/CoMa3_projekt/code/temp_projekt/build-musiktafel_temp-Desktop_x86_windows_msvc2022_pe_64bit-Debug/musiktafel_temp_autogen/mocs_compilation.cpp	bfe3a930196e8d93
+751	5157	7221834928781922	CMakeFiles/musiktafel_temp.dir/musiktafel_temp_autogen/mocs_compilation.cpp.obj	252511b3a83c6404
+787	5165	7221834928938329	CMakeFiles/musiktafel_temp.dir/mainwindow.cpp.obj	aae42238afbb3ced
+803	10161	7221834978902752	CMakeFiles/musiktafel_temp.dir/Musiktafel.cpp.obj	9e5b788052cb87a6
+773	10197	7221834979215320	CMakeFiles/musiktafel_temp.dir/main.cpp.obj	b52be31128bebc20
+10197	10989	7221834986875603	musiktafel_temp.exe	eaf273a6a0a2d416

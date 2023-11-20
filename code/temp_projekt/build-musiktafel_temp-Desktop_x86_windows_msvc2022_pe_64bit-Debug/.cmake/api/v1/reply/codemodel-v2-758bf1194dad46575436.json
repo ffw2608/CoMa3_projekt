@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-92533f918e4e87f379b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "musiktafel_temp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "musiktafel_temp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-musiktafel_temp-Debug-5943f5f6bf00b1b59da8.json",
+					"name" : "musiktafel_temp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "musiktafel_temp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-musiktafel_temp_autogen-Debug-a2edf005815b77acd963.json",
+					"name" : "musiktafel_temp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "musiktafel_temp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-musiktafel_temp_autogen_timestamp_deps-Debug-6edab7fa95bfe1eb9dfc.json",
+					"name" : "musiktafel_temp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lenovo/_UNI/Programmieren/git_repos/CoMa3_projekt/code/temp_projekt/build-musiktafel_temp-Desktop_x86_windows_msvc2022_pe_64bit-Debug",
+		"source" : "C:/Users/Lenovo/_UNI/Programmieren/git_repos/CoMa3_projekt/code/temp_projekt/musiktafel_temp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
