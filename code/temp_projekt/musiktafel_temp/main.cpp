@@ -1,4 +1,5 @@
 #include "Musiktafel.cpp"
+#include <QApplication>
 
 /***  Main ***/
 

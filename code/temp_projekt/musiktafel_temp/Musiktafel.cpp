@@ -13,7 +13,7 @@ public:
     Musiktafel(QWidget *parent = nullptr) : QWidget(parent)
     {
         setFixedSize(1000, 500); // Festlegen der Größe des Widgets
-        initializeLines(); // Initialisierung der Linien
+        init_linien(); // Initialisierung der Linien
     }
 
 
@@ -26,36 +26,38 @@ protected:
         Q_UNUSED(event);
         QPainter painter(this);
 
-        painter.setPen(Qt::black);
-        for (int i = 0; i < lines.size(); i+=2)
-        {
+        painter.setPen(Qt::black);                  // stellt den stift auf farbe schwarz
+
+        for (int i = 0; i < lines.size(); i+=2)     // Nur jede zweite Linie soll gezeichnet werden
+        { 
             if (    i == 0
                 ||  i == 2
                 ||  i == lines.size() / 2
                 ||  i == lines.size() - 3
-                ||  i == lines.size() - 1)
+                ||  i == lines.size() - 1)          // 2x --, Violinenschlüssel, -- , (Bassschlüssel), 2x --
             {
-                // Zeichne eine Gestrichelte Linie
-                QVector<qreal> dashes = {20, 20};
+                // Gestrichelte Linie
+                QVector<qreal> dashes = {20, 20};   // breite und abstände der ' - '
                 QPen dashedPen(Qt::DashLine);
                 dashedPen.setColor(Qt::black);
                 dashedPen.setDashPattern(dashes);
-                painter.setPen(dashedPen);
-                painter.drawLine(lines[i]);
 
-                // Stelle den Stift wieder auf normalen Stil zurück
-                painter.setPen(Qt::black);
+                painter.setPen(dashedPen);
+                painter.drawLine(lines[i]);         // Zeichnet die getrichelte Linie auf gegebener Höhe
+
+                painter.setPen(Qt::black);          // Stelle den Stift wieder auf normalen Stil zurück
             }
             else
             {
-                painter.drawLine(lines[i]); // Zeichne normale Linien für andere Linien
+                // durchgezogene Linien
+                painter.drawLine(lines[i]);
             }
         }
 
-        // Zeichnen der Punkte mit unterschiedlichen Farben basierend auf ihrer Linie
-        for (const QPointF& point : points)
+        for (const QPointF& point : points)         // Punkte zeichnen (gleiche Linie, gl. Farbe),(andere Linie, andere Farbe)
+
         {
-            painter.setPen(QColor::fromHsvF(point.y() / height(), 1, 1)); // Farbe basierend auf der Y-Position setzen
+            painter.setPen(QColor::fromHsvF(point.y() / height(), 1, 1));   // Farbe basierend auf der Y-Position setzen
             painter.setBrush(QColor::fromHsvF(point.y() / height(), 1, 1)); // Farbe basierend auf der Y-Position setzen
             painter.drawEllipse(point, pointSize, pointSize);
         }
@@ -88,7 +90,7 @@ private:
 
     //  /*** Einfügen der Linien ***/
 
-    void initializeLines()
+    void init_linien()
     {
         for (int i = 1; i <= numLines; ++i)
             lines.push_back(QLineF(0, i * lineSpacing, width(), i * lineSpacing));

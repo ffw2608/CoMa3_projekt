@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-00a66a6287b86f99b01e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "testspace",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "testspace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testspace-Debug-919e37961581bb6d0168.json",
+					"name" : "testspace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testspace_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testspace_autogen-Debug-1008e506255c1b1d1389.json",
+					"name" : "testspace_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testspace_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testspace_autogen_timestamp_deps-Debug-5526ae1747f71f336531.json",
+					"name" : "testspace_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lenovo/_UNI/Programmieren/git_repos/CoMa3_projekt/code/build-testspace-Desktop_x86_windows_msvc2022_pe_64bit-Debug",
+		"source" : "C:/Users/Lenovo/_UNI/Programmieren/git_repos/CoMa3_projekt/code/testspace"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
