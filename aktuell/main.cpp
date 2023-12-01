@@ -1,20 +1,7 @@
-//#include "Musiktafel.cpp"
-#include "Musiktafel_control.cpp"
+#include "Musiktafel_control.h"
 #include <QApplication>
 
 /***  Main ***/
-/*
-int main(int argc, char *argv[])
-{
-    QApplication app(argc, argv);
-
-    Musiktafel mt ;
-    mt.show();
-
-    return app.exec();
-}
-*/
-
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
