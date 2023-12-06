@@ -1,0 +1,11 @@
+# ninja log v5
+24	2103	7233937390154602	Coma3_Projekt_autogen/timestamp	a63dec654176765c
+24	2103	7233937390154602	Coma3_Projekt_autogen/mocs_compilation.cpp	a63dec654176765c
+24	2103	7233937390154602	C:/Users/Lenovo/_UNI/Programmieren/git_repos/CoMa3_projekt/code/build-Coma3_Projekt-Desktop_x86_windows_msvc2022_pe_64bit-Debug/Coma3_Projekt_autogen/timestamp	a63dec654176765c
+24	2103	7233937390154602	C:/Users/Lenovo/_UNI/Programmieren/git_repos/CoMa3_projekt/code/build-Coma3_Projekt-Desktop_x86_windows_msvc2022_pe_64bit-Debug/Coma3_Projekt_autogen/mocs_compilation.cpp	a63dec654176765c
+2150	7046	7233937444146548	CMakeFiles/Coma3_Projekt.dir/mainwindow.cpp.obj	273465623b15b5ba
+2129	7064	7233937444462219	CMakeFiles/Coma3_Projekt.dir/main.cpp.obj	450e5a4b23f63ecf
+2109	7233	7233937446196820	CMakeFiles/Coma3_Projekt.dir/Coma3_Projekt_autogen/mocs_compilation.cpp.obj	fbcea25156c6c66f
+7234	8266	7233937456144883	Coma3_Projekt.exe	1fdf2599844f7634
+10	53	0	CMakeFiles/clean.additional	baedbe210acaa455
+54	73	0	clean	423d399e6810f01
